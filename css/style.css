@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Ribeye&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    background-image: url(../image/header-bg.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__info{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.navbar-brand{
+    font-family: 'Ribeye';
+    font-weight: 500;
+}
+.nav-link{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+.title{
+    width: 804px;
+    font-family: 'Gelasio';
+    font-size: 64px;
+    line-height: 78px;
+    font-weight: 700;
+}
+.header__info-text{
+    width: 458px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.main-text{
+    width: 735px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: normal;
+    opacity: 0.6;
+}
+#footer{
+    width: 100%;
+    height: 348px;
+    background: rgba(38, 148, 153, 0.04);
+}
